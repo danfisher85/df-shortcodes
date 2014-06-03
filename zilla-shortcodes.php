@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: DF_Shortcodes
-Plugin URI: http://www.themezilla.com/plugins/zillashortcodes
+Plugin URI: https://github.com/danfisher85/DF_Shortcodes
 Description: A simple shortcode generator. Add buttons, columns, tabs, toggles and alerts to your theme.
 Version: 1.0
 Author: dan_fisher
