@@ -7,13 +7,13 @@
 	editor.addCommand("zillaPopup", function ( a, params )
 	{
 		var popup = params.identifier;
-		tb_show("Insert Zilla Shortcode", url + "/popup.php?popup=" + popup + "&width=" + 800);
+		tb_show("Insert DF Shortcode", url + "/popup.php?popup=" + popup + "&width=" + 800);
 	});
 
 		editor.addButton( 'zilla_button', {
 			type: 'splitbutton',
 			icon: false,
-			title:  'Zilla Shortcodes',
+			title:  'DF Shortcodes',
 			onclick : function(e) {},
 			menu: [
 
