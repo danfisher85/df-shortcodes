@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: DF_Shortcodes
-Plugin URI: https://github.com/danfisher85/DF_Shortcodes
+Plugin Name: df-shortcodes
+Plugin URI: https://github.com/danfisher85/df-shortcodes
 Description: A simple shortcode generator. Add buttons, columns, tabs, toggles and alerts to your theme.
 Version: 1.0
 Author: dan_fisher
