@@ -27,28 +27,38 @@
 
                btn.onRenderMenu.add(function (c, b)
 				{	
-					a.addWithPopup( b, "Post List", "recent_posts" );
-					a.addWithPopup( b, "Posts Main", "posts" );
+					a.addWithPopup( b, "Animation", "animate" );
+					a.addWithPopup( b, "Post List", "posts_list" );
+					a.addWithPopup( b, "Recent Posts", "recent_posts" );
+					a.addWithPopup( b, "Portfolio Boxed", "portfolio_boxed" );
 					a.addWithPopup( b, "Portfolio Items", "portfolio" );
-					a.addWithPopup( b, "Team", "team" );
-					a.addWithPopup( b, "Shortbar", "shortbar" );
 					a.addWithPopup( b, "Columns", "columns" );
 					a.addWithPopup( b, "Buttons", "button" );
-					a.addWithPopup( b, "Link", "link" );
+					a.addWithPopup( b, "Table", "table" );
 					a.addWithPopup( b, "Dropcaps", "dropcap" );
-					a.addWithPopup( b, "Blockquote", "blockquote" );
-					a.addWithPopup( b, "Rules", "hr" );
+					a.addWithPopup( b, "Pullquote", "pullquote" );
+					a.addWithPopup( b, "Horizontal Rule", "hr" );
 					a.addWithPopup( b, "Spacer", "spacer" );
 					a.addWithPopup( b, "Alerts", "alert" );
 					a.addWithPopup( b, "List", "list" );
+					a.addWithPopup( b, "Icon", "icon" );
 					a.addWithPopup( b, "Icobox", "icobox" );
+					a.addWithPopup( b, "Box", "box" );
+					a.addWithPopup( b, "Section", "section" );
+					a.addWithPopup( b, "Video in Monitor", "video_in_monitor" );
 					a.addWithPopup( b, "Call to Action", "cta" );
-					a.addWithPopup( b, "Tabs", "tabs_new" );
+					a.addWithPopup( b, "Intro section", "cta_block" );
+					a.addWithPopup( b, "Tabs", "tabs" );
 					a.addWithPopup( b, "Carousel", "carousel" );
-					a.addWithPopup( b, "Slider", "slider" );
-					a.addWithPopup( b, "Pricing Tables", "pricing_tables" );
+					a.addWithPopup( b, "Partners", "partners" );
+					a.addWithPopup( b, "Pricing Tables", "pricing_table" );
 					a.addWithPopup( b, "Accordion", "accordion" );
-					a.addWithPopup( b, "Progress Bar", "bar" );
+					a.addWithPopup( b, "Progress Bar", "progress" );
+					a.addWithPopup( b, "Testimonial", "testimonial" );
+					a.addWithPopup( b, "Timeline", "timeline" );
+					a.addWithPopup( b, "Team Member", "member" );
+					a.addWithPopup( b, "List Group", "lgroup" );
+					a.addWithPopup( b, "Join Buttons", "social_btns" );
 				});
                 
                 return btn;
