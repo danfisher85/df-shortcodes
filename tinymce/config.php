@@ -1927,7 +1927,7 @@ $zilla_shortcodes['carousel'] = array(
 			'desc' => __('How many posts will be visible in time?', 'emotion'),
       ),
 	),
-	'shortcode' => '[carousel post_type="{{post_type}}" visible_items="{{visible_items}}"]',
+	'shortcode' => '[carousel post_type="{{post_type}}" num="{{num}}"visible_items="{{visible_items}}"]',
 	'popup_title' => __('Insert Box Shortcode', 'emotion')
 );
 
