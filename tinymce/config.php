@@ -1914,11 +1914,17 @@ $zilla_shortcodes['carousel'] = array(
 				'portfolio' => 'Portfolio Post'
 			)
 		),
-		'visible_items' => array(
+		'num' => array(
 			'std' => '6',
 			'type' => 'text',
 			'label' => __('Number of Posts', 'emotion'),
-			'desc' => __('How many posts will be displayed', 'emotion'),
+			'desc' => __('Change the number of displayed posts', 'emotion'),
+		),
+		'visible_items' => array(
+			'std' => '4',
+			'type' => 'text',
+			'label' => __('Visible Posts', 'emotion'),
+			'desc' => __('How many posts will be visible in time?', 'emotion'),
       ),
 	),
 	'shortcode' => '[carousel post_type="{{post_type}}" visible_items="{{visible_items}}"]',
