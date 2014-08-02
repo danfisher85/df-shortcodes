@@ -1939,7 +1939,20 @@ $zilla_shortcodes['carousel'] = array(
 /*-----------------------------------------------------------------------------------*/
 
 $zilla_shortcodes['partners'] = array(
-	'params' => array(),
+	'params' => array(
+		'cols' => array(
+			'type' => 'select',
+			'label' => __('Columns', 'emotion'),
+			'desc' => __('Select number of columns', 'emotion'),
+			'options' => array(
+				'1' => '1 column',
+				'2' => '2 columns',
+				'3' => '3 columns',
+				'4' => '4 columns',
+				'6' => '6 columns'
+			)
+		),
+	),
 	'no_preview' => true,
 	'shortcode' => '[partners cols="{{cols}}"] {{child_shortcode}} [/partners]',
 	'popup_title' => __('Insert Partners Shortcode', 'emotion'),
@@ -1947,7 +1960,7 @@ $zilla_shortcodes['partners'] = array(
 	'child_shortcode' => array(
 		'params' => array(
 	      'content' => array(
-				'std' => 'Content',
+				'std' => 'Put your image here',
 				'type' => 'textarea',
 				'label' => __('Item Content', 'emotion'),
 				'desc' => __('Add the item\'s content', 'emotion')
