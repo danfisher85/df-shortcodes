@@ -1483,7 +1483,7 @@ if (!function_exists('video_holder_shortcode')) {
 					$video_id = str_replace( 'http://www.vimeo.com/', '', $video_id );
 
 					//Display Vimeo video
-					$output .= '<iframe src="http://player.vimeo.com/video/'.$video_id.'?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0"></iframe>';
+					$output .= '<iframe src="http://player.vimeo.com/video/'.$video_id.'?title=0&amp;byline=0&amp;portrait=0" width="640" height="360"></iframe>';
 
 				} elseif($youtube !== false){
 
@@ -1492,7 +1492,7 @@ if (!function_exists('video_holder_shortcode')) {
 					$video_id = str_replace( 'https://www.youtube.com/watch?v=', '', $video_id );
 					$video_id = str_replace( '&feature=channel', '', $video_id );
 
-					$output .= '<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="360" src="http://www.youtube.com/embed/'.$video_id.'" frameborder="0"></iframe>';
+					$output .= '<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="360" src="http://www.youtube.com/embed/'.$video_id.'"></iframe>';
 				}
 
 				$output .= '</div>';
