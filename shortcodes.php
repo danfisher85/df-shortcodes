@@ -451,11 +451,12 @@ if (!function_exists('icobox_shortcode')) {
 			array(
 				'color' => '',
 				'icon' => '',
+				'img_icon' => '',
 				'title' => '',
 				'url' => '',
-			   'desc' => '',
-			   'desc_hover' => '',
-			   'btn_txt' => ''
+				'desc' => '',
+				'desc_hover' => '',
+				'btn_txt' => ''
 	   ), $atts));
 
 		$desc_hover_class = '';
@@ -467,7 +468,13 @@ if (!function_exists('icobox_shortcode')) {
 		$output =  '<div class="icobox icobox__'.$color.'">';
 			$output .= '<div class="icobox-holder">';
 				$output .= '<div class="triangle-top"></div>';
-				$output .= '<i class="fa '.$icon.'"></i>';
+
+				if ( $img_icon != "") {
+					$output .= '<div class="icobox-dummy-content"></div>';
+					$output .= '<div class="img-container"><img src="'.$img_icon.'" alt=""></div>';
+				} else {
+					$output .= '<i class="fa '.$icon.'"></i>';
+				}
 				$output .= '<div class="triangle-bottom"></div>';
 			$output .= '</div>';
 			$output .= '<div class="icobox-desc '.$desc_hover_class.'">';

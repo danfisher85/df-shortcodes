@@ -850,6 +850,12 @@ $zilla_shortcodes['icobox'] = array(
 			'desc' => __('Select the icon', 'emotion'),
 			'options' => $fontawesome_icons
 		),
+		'img_icon' => array(
+			'std' => '',
+			'type' => 'text',
+			'label' => __('Image Icon', 'emotion'),
+			'desc' => __('Put path to your Image Icon', 'emotion')
+		),
 		'title' => array(
 			'std' => 'Title',
 			'type' => 'text',
@@ -884,7 +890,7 @@ $zilla_shortcodes['icobox'] = array(
 			'desc' => __('Add the icoboxe\'s button text or leave it empty if you don\'t want to show button. ', 'emotion'),
 		),
 	),
-	'shortcode' => '[icobox color="{{color}}" icon="{{icon}}" title="{{title}}" url="{{url}}" desc="{{desc}}" desc_hover="{{desc_hover}}" btn_txt="{{btn_txt}}"]',
+	'shortcode' => '[icobox color="{{color}}" icon="{{icon}}" img_icon="{{img_icon}}" title="{{title}}" url="{{url}}" desc="{{desc}}" desc_hover="{{desc_hover}}" btn_txt="{{btn_txt}}"]',
 	'popup_title' => __('Insert Icobox Shortcode', 'emotion')
 );
 
